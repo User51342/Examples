@@ -2,6 +2,10 @@
 {
     class Program
     {
+        /// <summary>
+        /// See <see cref="https://app.pluralsight.com/player?course=patterns-library&author=john-sonmez&name=design-patterns-prototype&clip=7&mode=live">Webcast</see>
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             var status1 = new StatusSwitcher();

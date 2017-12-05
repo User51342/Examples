@@ -17,7 +17,7 @@ namespace PrototypePatternExample
         #endregion
 
         #region Construction / Initialization / Deconstruction
-        public StatusSwitcher()
+        internal StatusSwitcher()
         {
             Status = 1;
         }
