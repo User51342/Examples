@@ -1,13 +1,11 @@
 ﻿using FactoryPatternExample.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FactoryPatternExample
 {
+    /// <summary>
+    /// See <see cref="https://app.pluralsight.com/player?course=patterns-library&author=david-starr&name=pattern-factories&clip=0&mode=live">Pluralsight course</see>
+    ///  </summary>
     class Program
     {
         static void Main(string[] args)
