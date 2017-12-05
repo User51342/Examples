@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadSafeSingletonExample", "ThreadSafeSingletonExample\ThreadSafeSingletonExample.csproj", "{0C22BE1E-5887-4DAA-99B6-CDE9411B1294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPatternExample", "BuilderPatternExample\BuilderPatternExample.csproj", "{A7834D36-7CA1-46EA-8BE2-6ABFE21DBC2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPatternExample", "BuilderPatternExample\BuilderPatternExample.csproj", "{A7834D36-7CA1-46EA-8BE2-6ABFE21DBC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternExample", "FactoryPatternExample\FactoryPatternExample\FactoryPatternExample.csproj", "{CC699990-0DC9-45D7-9534-2088D402EFC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A7834D36-7CA1-46EA-8BE2-6ABFE21DBC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7834D36-7CA1-46EA-8BE2-6ABFE21DBC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7834D36-7CA1-46EA-8BE2-6ABFE21DBC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC699990-0DC9-45D7-9534-2088D402EFC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC699990-0DC9-45D7-9534-2088D402EFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC699990-0DC9-45D7-9534-2088D402EFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC699990-0DC9-45D7-9534-2088D402EFC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
