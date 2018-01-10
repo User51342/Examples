@@ -54,6 +54,13 @@ namespace AdapterPatternExample.Tests
             var result = adapter.ListPatterns(patterns);
             Assert.AreEqual(4, result.Count(x => x == '\n'));
         }
+
+        [TestMethod]
+        public void Date12()
+        {
+            var newd = new DateTime(2018,04,01);
+            Console.WriteLine(newd.AddDays(-84));
+        }
     }
 
 
