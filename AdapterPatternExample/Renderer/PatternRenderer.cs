@@ -5,6 +5,9 @@ using AdapterPatternExample.Models;
 
 namespace AdapterPatternExample.Renderer
 {
+    /// <summary>
+    /// This is new client which needs the adapter to use DataRenderer.
+    /// </summary>
     public class PatternRenderer
     {
         private readonly IDataPatternRendererAdapter _DataPatternRendererAdapter;

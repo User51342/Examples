@@ -21,7 +21,7 @@ namespace RepositoryPatternExample
             }
             else
             {
-                var count = new Counter() {Number = 0};
+                var count = new Counter {Number = 0};
                 unitOfWork.Counters.Add(count);
                 unitOfWork.Commit();
                 Console.WriteLine($"Created Counter with Id {count.Id}.");
